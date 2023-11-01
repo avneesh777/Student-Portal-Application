@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+    tools:context=".Update">
+
+
+    <TextView
+        android:id="@+id/oldNameTextView"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:text="Name:"
+        android:textSize="18sp"
+        android:theme="@style/Base.Theme.StudentPortal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <TextView
+        android:id="@+id/oldEmailTextView"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:text="Email:"
+        android:textSize="18sp"
+        android:theme="@style/Base.Theme.StudentPortal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <TextView
+        android:id="@+id/oldPhoneTextView"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:text="Phone:"
+        android:textSize="18sp"
+        android:theme="@style/Base.Theme.StudentPortal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.344"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <TextView
+        android:id="@+id/oldSapidTextView"
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:text="SAP ID:"
+        android:textSize="18sp"
+        android:theme="@style/Base.Theme.StudentPortal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.377"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:text="Update Profile"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:theme="@style/Base.Theme.StudentPortal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.41"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
+
+
+    <EditText
+        android:id="@+id/newNameEditText"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="New Name"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.483" />
+
+    <EditText
+        android:id="@+id/newEmailEditText"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="New Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.389"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.58" />
+
+    <EditText
+        android:id="@+id/newPhoneEditText"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="New Phone"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.681" />
+
+
+    <EditText
+        android:id="@+id/newPasswordEditText"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="New Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.778" />
+
+    <EditText
+        android:id="@+id/confirmOldPasswordEditText"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:hint="Confirm Old Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="144dp"
+        android:layout_height="57dp"
+        android:text="Update"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:padding="16dp"-->
+<!--    tools:context=".Update">-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/oldNameTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Name:" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/oldEmailTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Email:" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/oldPhoneTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Phone:" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/oldSapidTextView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="SAP ID:" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/newNameEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="New Name" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/newEmailEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        android:hint="New Email" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/newPhoneEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="phone"-->
+<!--        android:hint="New Phone" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/newPasswordEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:hint="New Password" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/confirmOldPasswordEditText"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:hint="Confirm Old Password" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/updateButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Update" />-->
+<!--</LinearLayout>-->
